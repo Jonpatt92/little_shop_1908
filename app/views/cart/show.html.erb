@@ -19,7 +19,6 @@
             <p>Subtotal: <%= subtotal %></p>
           <% x = item_id.to_i %>
             <section id= "item-<%=x%>">
-              <%# <% binding.pry %> %>
               <%= button_to 'Remove Item', "/cart/#{item.id}", method: :delete %>
             </section>
           </section>
