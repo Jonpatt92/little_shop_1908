@@ -11,4 +11,12 @@ class Merchant < ApplicationRecord
   def no_orders
     order_items.empty?
   end
+
+  def average_item_price
+    items.average(:price)
+  end
+
+  def cities
+    order_items.distinct.joins(:order).pluck(:city)
+  end
 end
