@@ -29,6 +29,7 @@ RSpec.describe 'Merchant Show Page', type: :feature do
       expect(page).to have_content("Denver")
       expect(page).to have_content("Aurora")
       expect(page).to have_content('Englewood')
+
     end
   end
 end

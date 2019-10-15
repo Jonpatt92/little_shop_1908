@@ -93,10 +93,6 @@ img{
 
  }
 
- .new-form{
-   
- }
-
  input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -149,3 +145,5 @@ form {
 #top_three_reviews{
   color: tomato;
 }
+
+
